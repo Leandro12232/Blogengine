@@ -1,0 +1,16 @@
+C:\Users\Raymond\Nextcloud\EinfuehrungPro\Klausur\WS2020\Blogengine\src\main\java\dhbw\einpro\blogengine\BlogEngineHelper.java
+C:\Users\Raymond\Nextcloud\EinfuehrungPro\Klausur\WS2020\Blogengine\src\main\java\dhbw\einpro\blogengine\impl\User.java
+C:\Users\Raymond\Nextcloud\EinfuehrungPro\Klausur\WS2020\Blogengine\src\main\java\dhbw\einpro\blogengine\exceptions\DuplicateEmailException.java
+C:\Users\Raymond\Nextcloud\EinfuehrungPro\Klausur\WS2020\Blogengine\src\main\java\dhbw\einpro\blogengine\impl\Post.java
+C:\Users\Raymond\Nextcloud\EinfuehrungPro\Klausur\WS2020\Blogengine\src\main\java\dhbw\einpro\blogengine\exceptions\PostNotFoundException.java
+C:\Users\Raymond\Nextcloud\EinfuehrungPro\Klausur\WS2020\Blogengine\src\main\java\dhbw\einpro\blogengine\impl\UserHelper.java
+C:\Users\Raymond\Nextcloud\EinfuehrungPro\Klausur\WS2020\Blogengine\src\main\java\dhbw\einpro\blogengine\exceptions\IllegalOperationException.java
+C:\Users\Raymond\Nextcloud\EinfuehrungPro\Klausur\WS2020\Blogengine\src\main\java\dhbw\einpro\blogengine\impl\Comment.java
+C:\Users\Raymond\Nextcloud\EinfuehrungPro\Klausur\WS2020\Blogengine\src\main\java\dhbw\einpro\blogengine\App.java
+C:\Users\Raymond\Nextcloud\EinfuehrungPro\Klausur\WS2020\Blogengine\src\main\java\dhbw\einpro\blogengine\interfaces\IPost.java
+C:\Users\Raymond\Nextcloud\EinfuehrungPro\Klausur\WS2020\Blogengine\src\main\java\dhbw\einpro\blogengine\interfaces\IUser.java
+C:\Users\Raymond\Nextcloud\EinfuehrungPro\Klausur\WS2020\Blogengine\src\main\java\dhbw\einpro\blogengine\interfaces\IComment.java
+C:\Users\Raymond\Nextcloud\EinfuehrungPro\Klausur\WS2020\Blogengine\src\main\java\dhbw\einpro\blogengine\exceptions\DuplicateUserException.java
+C:\Users\Raymond\Nextcloud\EinfuehrungPro\Klausur\WS2020\Blogengine\src\main\java\dhbw\einpro\blogengine\exceptions\UserNotFoundException.java
+C:\Users\Raymond\Nextcloud\EinfuehrungPro\Klausur\WS2020\Blogengine\src\main\java\dhbw\einpro\blogengine\interfaces\IBlogEngine.java
+C:\Users\Raymond\Nextcloud\EinfuehrungPro\Klausur\WS2020\Blogengine\src\main\java\dhbw\einpro\blogengine\impl\BlogEngine.java

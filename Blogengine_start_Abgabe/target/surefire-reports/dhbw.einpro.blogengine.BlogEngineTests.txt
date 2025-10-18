@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: dhbw.einpro.blogengine.BlogEngineTests
+-------------------------------------------------------------------------------
+Tests run: 27, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 0.916 s <<< FAILURE! - in dhbw.einpro.blogengine.BlogEngineTests
+GivenBlogEngineWithPostsThenUserCannotCommentOwnPost  Time elapsed: 0.055 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <dhbw.einpro.blogengine.exceptions.IllegalOperationException> but was: <dhbw.einpro.blogengine.exceptions.UserNotFoundException>
+	at dhbw.einpro.blogengine.BlogEngineTests.GivenBlogEngineWithPostsThenUserCannotCommentOwnPost(BlogEngineTests.java:459)
+Caused by: dhbw.einpro.blogengine.exceptions.UserNotFoundException: Autor des Kommentars ist noch nicht als Benutzer registriert!
+	at dhbw.einpro.blogengine.BlogEngineTests.lambda$GivenBlogEngineWithPostsThenUserCannotCommentOwnPost$6(BlogEngineTests.java:460)
+	at dhbw.einpro.blogengine.BlogEngineTests.GivenBlogEngineWithPostsThenUserCannotCommentOwnPost(BlogEngineTests.java:459)
+
+WhenUserAddsCommentsContentLonger256CharactersToPostThenIllegalOperationException  Time elapsed: 0.051 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <dhbw.einpro.blogengine.exceptions.IllegalOperationException> but was: <dhbw.einpro.blogengine.exceptions.UserNotFoundException>
+	at dhbw.einpro.blogengine.BlogEngineTests.WhenUserAddsCommentsContentLonger256CharactersToPostThenIllegalOperationException(BlogEngineTests.java:187)
+Caused by: dhbw.einpro.blogengine.exceptions.UserNotFoundException: Autor des Kommentars ist noch nicht als Benutzer registriert!
+	at dhbw.einpro.blogengine.BlogEngineTests.lambda$WhenUserAddsCommentsContentLonger256CharactersToPostThenIllegalOperationException$1(BlogEngineTests.java:188)
+	at dhbw.einpro.blogengine.BlogEngineTests.WhenUserAddsCommentsContentLonger256CharactersToPostThenIllegalOperationException(BlogEngineTests.java:187)
+
+GivenBlogEngineWithPostsThenUserCannAddCommentsToPost  Time elapsed: 0.051 s  <<< ERROR!
+dhbw.einpro.blogengine.exceptions.UserNotFoundException: Autor des Kommentars ist noch nicht als Benutzer registriert!
+	at dhbw.einpro.blogengine.BlogEngineTests.GivenBlogEngineWithPostsThenUserCannAddCommentsToPost(BlogEngineTests.java:161)
+
